@@ -1,2 +1,22 @@
-# Ignore all exe files, it not need
+# Binaries
 *.exe
+*.out
+*.obj
+*.o
+*.pdb
+*.ilk
+*.dll
+
+# Build folders
+/build/
+/bin/
+/debug/
+/release/
+
+# IDE junk
+.vscode/
+*.user
+*.suo
+*.vcxproj.user
+.DS_Store
+Thumbs.db
