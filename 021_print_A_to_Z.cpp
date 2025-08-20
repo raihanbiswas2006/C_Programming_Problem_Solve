@@ -1,16 +1,16 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(){
  
-    char alphabet;
+    char AtoZ;
 
-    for (alphabet = 'A'; alphabet <= 'Z'; alphabet++) {
+    for (AtoZ = 'A'; AtoZ <= 'Z'; AtoZ++) {
         
-        cout << alphabet << " ";
+        cout << AtoZ << " ";
     }
 
-    cout << endl;
+    cout <<endl;
 
     return 0;
 }
