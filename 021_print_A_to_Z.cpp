@@ -5,9 +5,8 @@ int main(){
  
     char AtoZ;
 
-    for (AtoZ = 'A'; AtoZ <= 'Z'; AtoZ++) {
-        
-        cout << AtoZ << " ";
+    for (AtoZ = 'A'; AtoZ <= 'Z'; AtoZ++){
+        cout << AtoZ << " " <<endl;
     }
 
     cout <<endl;
