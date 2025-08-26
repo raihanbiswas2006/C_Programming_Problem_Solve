@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int a, b;
+    int a, b, temp;
 
     cout << "Give First Number: ";
     cin >> a;
@@ -12,9 +12,9 @@ int main() {
     cout << "Before swapping:"<<endl;
     cout << "First Number = " << a << ", Second Number = " << b <<endl;
 
-    a = a + b;
-    b = a - b;
-    a = a - b;
+    temp = a;
+    a = b;
+    b = temp;
 
     cout << "After swapping:"<<endl;
     cout << "First Number = " << a << ", Second Number = " << b <<endl;
