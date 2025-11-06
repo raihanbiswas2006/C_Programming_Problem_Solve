@@ -6,18 +6,18 @@ int main(){
     
     char str1[100], str2[100];
 
-    cout << "Enter first string: ";
+    cout << "Enter First String: ";
     cin.getline(str1, 100); 
-    cout << "Enter second string: ";
+    cout << "Enter Second String: ";
     cin.getline(str2, 100);
     int result = strcmp(str1, str2);
 
     if (result == 0) {
-        cout << "The strings are equal." << endl;
+        cout << "The Strings are Equal." <<endl;
     } else if (result < 0) {
-        cout << "The first string is lexicographically smaller than the second string." << endl;
+        cout << "The First String is Lexicographically Smaller than the second String." <<endl;
     } else {
-        cout << "The first string is lexicographically greater than the second string." << endl;
+        cout << "The First String is Lexicographically Greater than the second String." <<endl;
     }
 
     return 0;
