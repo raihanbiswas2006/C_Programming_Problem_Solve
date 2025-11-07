@@ -7,7 +7,7 @@ int main(){
 
     cout << "Give Number of Rows: ";
     cin >> n;
-    cout << "Give Any Number: ";
+    cout << "Give Any Single Number: ";
     cin >> inpuT;
 
     for (int i = 1; i <= n; i++)
