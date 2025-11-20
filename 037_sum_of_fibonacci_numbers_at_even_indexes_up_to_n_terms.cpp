@@ -28,7 +28,7 @@ int main(){
             sum += next;
     }
 
-    cout << "Sum of Fibonacci Numbers at Even indexes = " << sum <<endl;
+    cout << "Sum of Fibonacci Numbers at Even Indexes = " << sum <<endl;
 
     return 0;
 }
