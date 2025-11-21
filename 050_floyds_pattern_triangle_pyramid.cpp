@@ -3,17 +3,17 @@ using namespace std;
 
 int main(){
 
-    int n;
-    
+    int n, i, j, num;
+
     cout << "Give Number of Rows: ";
     cin >> n;
 
-    int num = 1;
+    num = 1;
 
-    for (int i = 1; i <= n; i++)
+    for (i = 1; i <= n; i++)
     {
 
-        for (int j = 1; j <= i; j++)
+        for (j = 1; j <= i; j++)
         {
             cout << num << " ";
             num++;
