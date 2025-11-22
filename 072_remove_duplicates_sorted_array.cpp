@@ -5,12 +5,12 @@ int main(){
 
     int n;
 
-    cout << "Enter Number of Elements: ";
+    cout << "Give Number of Elements: ";
     cin >> n;
 
     int arr[100];
 
-    cout << "Enter Sorted Array Elements:" <<endl;
+    cout << "Give Sorted Array Elements:" <<endl;
 
     for (int i = 0; i < n; i++)
     {
