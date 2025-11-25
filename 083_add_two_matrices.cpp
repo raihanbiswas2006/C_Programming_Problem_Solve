@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main(){
+    
     int rows, cols;
 
     cout << "Give Number of Rows: ";
