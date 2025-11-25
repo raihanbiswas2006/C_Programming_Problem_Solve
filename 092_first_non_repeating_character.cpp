@@ -27,7 +27,7 @@ int main(){
     }
 
     if (result != '\0')
-        cout << "First Non-Repeating Character: " << result <<endl;
+        cout << "Non-Repeating Character: " << result <<endl;
     else
         cout << "No Non-Repeating Character Found." <<endl;
 
