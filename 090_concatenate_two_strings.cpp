@@ -13,7 +13,7 @@ int main(){
 
     strcat(str1, str2);
 
-    cout << "Concatenated String = " << str1 <<endl;
+    cout << "Concatenated String: " << str1 <<endl;
 
     return 0;
 }
