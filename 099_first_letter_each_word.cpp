@@ -19,7 +19,6 @@ int main(){
             cout << str[i] << " ";
             newWord = false;
         }
-
         if (str[i] == ' ')
         {
             newWord = true;
@@ -27,6 +26,6 @@ int main(){
     }
 
     cout <<endl;
-    
+
     return 0;
 }
